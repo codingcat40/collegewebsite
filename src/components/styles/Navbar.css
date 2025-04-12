@@ -1,0 +1,24 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+.logo-title {
+  font-weight: 700;
+  font-style: italic;
+  
+}
+.listItems {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  justify-content: right;
+  height: 64px;
+  align-items: center;
+  font-size: 18px;
+  color: rgb(198, 87, 87);
+  background-color: lightgray;
+  margin: auto;
+  font-family: sans-serif;
+}
