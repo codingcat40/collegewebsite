@@ -5,6 +5,7 @@
   width: 100%;
   margin: 0%;
   padding: 0%;
+
 }
 .logo-title {
   font-weight: 700;
@@ -14,12 +15,13 @@
 .listItems {
   display: flex;
   flex-direction: row;
-  gap: 32px;
-  justify-content: right;
+  gap: 28px;
+  justify-content: safe;
   height: 64px;
   align-items: center;
   color: rgb(198, 87, 87);
   background-color: lightgray;
   margin: auto;
+  padding-left: 44px;
   font-family: sans-serif;
 }
