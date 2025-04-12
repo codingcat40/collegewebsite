@@ -2,28 +2,28 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./styles/Navbar.css";
 const Navbar = () => {
+  const listItemStyles = {
+    textDecoration: 'none',
+    fontSize: '16px'
+  }
   return (
     <nav className="navbar">
       <ul className="listItems">
         <p className="logo-title">BTU @ All rights reserved</p>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/" style={listItemStyles}>Home</Link>
         </li>
 
         <li>
-          <Link to="/about-us">About Us</Link>
+          <Link to="/about-us" style={listItemStyles}>About Us</Link>
         </li>
 
         <li>
-          <Link to="faculty">Faculty</Link>
+          <Link to="faculty" style={listItemStyles}>Faculty</Link>
         </li>
 
         <li>
-          <Link to="/contact-us">Contact Us</Link>
-        </li>
-        
-        <li>
-            <button>Color Toggle</button>
+          <Link to="/contact-us" style={listItemStyles}>Contact Us</Link>
         </li>
       </ul>
     </nav>

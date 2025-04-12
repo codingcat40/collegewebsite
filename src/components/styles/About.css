@@ -1,0 +1,16 @@
+.about{
+    height: 100vh - 64px;
+    margin-top: 78px;
+    line-break: anywhere;
+    line-height: 36px;
+    width: 54rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    margin-top: 34px;
+    justify-content: center;
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+}
