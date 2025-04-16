@@ -1,0 +1,17 @@
+.contact-us{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid #000;
+    width: 26rem;
+    height: 34rem;
+    margin-top: 124px;
+}
+
+input{
+    border: none;
+    background-color: rgb(244, 238, 230);
+    height: 28px;
+    width: 250px;
+    border-radius: 12px;
+}
