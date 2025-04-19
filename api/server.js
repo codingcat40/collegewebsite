@@ -5,14 +5,14 @@ const cors = require('cors');
 
 const app = express();
 
-// Database connection
+// connection
 mongoose.connect(process.env.MONGODB_URL)
   .then(() => console.log('MongoDB Connected'))
   .catch(err => console.error('Connection error:', err));
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:5173' // Update with your frontend URL
+  origin: 'http://localhost:5173' 
 }));
 app.use(express.json());
 
